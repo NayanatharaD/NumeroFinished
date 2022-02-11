@@ -51,5 +51,10 @@ class ConverterTests: XCTestCase {
     let result = converter.convert(2)
     XCTAssertEqual(result, "II", "Conversion for 2 is incorrect")
   }
+    
+    func testConversionForTwo() {
+      let result = converter.convert(2)
+      XCTAssertEqual(result, "II", "Conversion for 2 is incorrect")
+    }
   
 }
